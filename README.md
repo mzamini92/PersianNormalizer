@@ -23,8 +23,10 @@ Or install it yourself as:
 ## Usage
 ```ruby
 require 'PersianNormalizer'
-FarsiNormalizer.process("ك Tي", only: ["ك"])=>"ک"
-FarsiNormalizer.process("کتاب ها ")=>کتاب‌ها
+FarsiNormalizer.process("ك Tي", only: ["ك"])
+#=>ک
+FarsiNormalizer.process("کتاب ها ")
+#=>کتاب‌ها
 ```
 ## Development
 
