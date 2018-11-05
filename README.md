@@ -1,11 +1,11 @@
 # PersianNormalizer
 
 PersianNormalizer is a ruby gem to normalize Persian(Farsi) text
-In this version we included Normalizing all character unicodes like "ي", "آ", "ك", "ؤ" and so on, into persian unicodes. 
-there are more than 300 unicode normalization in this version. 
-In addition you can Normalize half space when needed. for example "نمی رود" will be converted into "نمی‌رود". 
-if the word looks like "ســـــــــــــــــــــلام" it will be normalized into "سلام". 
-any extra space between words also removed. "من به               خانه می روم." converts into "من به خانه می‌روم".
+* Included Normalizing all character unicodes like "ي", "آ", "ك", "ؤ" and so on, into persian unicodes. 
+* there are more than 300 unicode normalization in this version. 
+* In addition you can Normalize half space when needed. for example "نمی رود" will be converted into "نمی‌رود". 
+* if the word looks like "ســـــــــــــــــــــلام" it will be normalized into "سلام". 
+* any extra space between words also removed. "من به               خانه می روم." converts into "من به خانه می‌روم".
 
 Good Luck and Enjoy
 
