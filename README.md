@@ -30,13 +30,13 @@ FarsiNormalizer.process("کتاب ها ")
 ```
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+In this version we included Normalizing all character unicodes like "ي", "آ", "ك", "ؤ" and so on, into persian unicodes. there are more than 300 unicode normalization in this version. In addition you can Normalize half space when needed. for example "نمی رود" will be converted into "نمی‌رود". if the word looks like "ســـــــــــــــــــــلام" it will be normalized into "سلام". any extra space between words also removed. "من به               خانه می روم." converts into "من به خانه می‌روم".
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Good Luck and Enjoy
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/PersianNormalizer. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/hellboy2010/PersianNormalizer. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
